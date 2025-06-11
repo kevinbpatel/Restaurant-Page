@@ -1,3 +1,4 @@
+import chickenBreast from "./how-to-grill-chicken-breast-pic.jpg"
 
 
 export const displayContent = () => { 
@@ -5,7 +6,7 @@ export const displayContent = () => {
 
   const img = document.createElement("img");
 
-  img.src = "how-to-grill-chicken-breast-pic.jpg";
+  img.src = chickenBreast;
   img.width = 500;
 
   const tagLine =  document.createElement("h2");
